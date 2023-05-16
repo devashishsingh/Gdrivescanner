@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Drive Documents</title>
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="results-container"></div>
+  <script>
+    function startApp() {
+      // Load the Google Drive API client library
+      handleClientLoad();
+    }
+  </script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script async defer src="https://accounts.google.com/gsi/javascript" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
+</body>
+</html>
